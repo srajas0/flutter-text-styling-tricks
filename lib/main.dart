@@ -25,7 +25,7 @@ class MyApp extends StatelessWidget {
                 margin: EdgeInsets.only(top: 20),
                 child: Text('Header Style', 
                   textAlign: TextAlign.center,
-                  style: Styles.headerStyles,
+                  style: Styles.headerStyles, // header style from Styles.dart
                 ),
               ),
               Expanded(
@@ -34,7 +34,7 @@ class MyApp extends StatelessWidget {
                   margin: EdgeInsets.only(top: 20),
                   child: Text('Body Style', 
                     textAlign: TextAlign.center,
-                    style: Styles.bodyStyle,
+                    style: Styles.bodyStyle, // body style from Styles.dart
                   ),
                 ),
               ),
@@ -81,7 +81,7 @@ class Buttons extends StatelessWidget {
           Text(
             type,
             textAlign: TextAlign.center,
-            style: Styles.buttonStyles,
+            style: Styles.buttonStyles, // buttonStyles from Styles.dart
           )
         ],
       )
